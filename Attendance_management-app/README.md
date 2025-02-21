@@ -1,10 +1,6 @@
 # AttendanceManagementApp
 
-<<<<<<< HEAD
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
-=======
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
->>>>>>> ff435484b4f0e6ee505303c5a4e3ffc0f910cb87
 
 ## Development server
 
@@ -61,8 +57,5 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-<<<<<<< HEAD
-=======
 
 npx ng serve --host 0.0.0.0 --port 4200
->>>>>>> ff435484b4f0e6ee505303c5a4e3ffc0f910cb87
