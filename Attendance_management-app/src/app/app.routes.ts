@@ -1,32 +1,4 @@
 import { Routes } from '@angular/router';
-<<<<<<< HEAD
-import { UserLoginComponent } from './user-login/user-login.component';
-import { UserRegistrationComponent } from './user-registration/user-registration.component';
-import { ViewAttendanceComponent } from './view-attendance/view-attendance.component';
-import { LeaveRequestComponent } from './leave-request/leave-request.component';
-import { EditUsersComponent } from './edit-users/edit-users.component';
-import { LeaveTypeComponent } from './leave-type/leave-type.component';
-import { RolesComponent } from './roles/roles.component';
-import { LeaveRequestHistoryComponent } from './leave-request-history/leave-request-history.component';
-import { StudentLeaveRequestComponent } from './student-leave-request/student-leave-request.component';
-import { TeacherLeaveRequestComponent } from './teacher-leave-request/teacher-leave-request.component';
-  
-
-
-export const routes: Routes = [
-
-    {path:"", component:UserLoginComponent},
-    {path:"userregistration", component:UserRegistrationComponent},
-    {path:"viewattendance", component:ViewAttendanceComponent},
-    {path:"leaverequest", component:LeaveRequestComponent},
-    {path:"editusers", component:EditUsersComponent},
-    {path:"leavetype",component:LeaveTypeComponent},
-    {path:"roles",component:RolesComponent},
-    {path:"leavehistory",component:LeaveRequestHistoryComponent},
-    {path:"studentleave",component:StudentLeaveRequestComponent},
-    {path:"teacherleave",component:TeacherLeaveRequestComponent}
-    // {path:"**", component:UserLoginComponent}
-=======
 
 import { EditUsersComponent } from './AdminModule/edit-users/edit-users.component';
 import { NewUserRequestsComponent } from './AdminModule/new-user-requests/new-user-requests.component';
@@ -99,5 +71,4 @@ export const routes: Routes = [
     ]},
     {path:"**", component:UserLoginComponent}
 
->>>>>>> ff435484b4f0e6ee505303c5a4e3ffc0f910cb87
 ];

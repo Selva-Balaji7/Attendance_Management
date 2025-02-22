@@ -1,12 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-<<<<<<< HEAD
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-=======
 #MessageBox{
     width: 25vw;
     /* height: 100vh; */
@@ -108,4 +101,3 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     }  
     
 }
->>>>>>> ff435484b4f0e6ee505303c5a4e3ffc0f910cb87
