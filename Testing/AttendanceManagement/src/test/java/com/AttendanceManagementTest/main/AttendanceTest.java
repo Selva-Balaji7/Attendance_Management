@@ -23,7 +23,7 @@ import org.testng.ITestContext;
 
 // import net.bytebuddy.dynamic.loading.ClassInjector.UsingReflection.System;
 
- public class AttendanceTest extends Extent{
+ public class AttendanceTest{
 
      private WebDriver driver =new ChromeDriver();
      private String baseUrl = "http://localhost:4200";

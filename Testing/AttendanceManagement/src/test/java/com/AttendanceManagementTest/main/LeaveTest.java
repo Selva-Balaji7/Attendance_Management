@@ -10,7 +10,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class LeaveTest {
+public class LeaveTest extends AttendanceTest{
     private WebDriver driver;
     
     @BeforeClass
@@ -47,7 +47,7 @@ public class LeaveTest {
         
         WebElement date = driver.findElement(By.id("startDate"));
         date.click();
-        date.sendKeys("24-02-2025");
+        date.sendKeys("02-52-2025");
         Thread.sleep(2000);
         
         driver.findElement(By.id("reason")).sendKeys("feeling not well");

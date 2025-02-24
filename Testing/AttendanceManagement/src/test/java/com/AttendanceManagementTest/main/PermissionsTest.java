@@ -11,7 +11,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class PermissionsTest {
+public class PermissionsTest extends LeaveTest{
     private WebDriver driver;
     private String expectedURL = "http://localhost:4200/dashboard";
 

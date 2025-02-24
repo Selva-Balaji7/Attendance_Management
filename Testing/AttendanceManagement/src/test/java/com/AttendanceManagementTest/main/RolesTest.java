@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class RolesTest {
+public class RolesTest extends PermissionsTest{
     private WebDriver driver;
 
     @BeforeClass

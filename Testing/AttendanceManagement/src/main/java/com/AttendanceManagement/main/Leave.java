@@ -27,6 +27,8 @@ public class Leave {
 	     WebElement loginButton = driver.findElement(By.className("btn")); // Change ID if needed
 	     loginButton.click();
 	     Thread.sleep(2000);
+	     
+	     
 	     //leave
 	     driver.findElement(By.className("hamburger-btn")).click();
 	     Thread.sleep(2000);
@@ -42,7 +44,7 @@ public class Leave {
 	     Thread.sleep(2000); 
 	     WebElement date=driver.findElement(By.id("startDate"));
 	     date.click();
-	     date.sendKeys("22-02-2025");
+	     date.sendKeys("02-25-2025");
 	     Thread.sleep(2000);
 	     driver.findElement(By.id("reason")).sendKeys("feeling not well");
 	     Thread.sleep(2000);
@@ -50,6 +52,9 @@ public class Leave {
 	     Thread.sleep(2000);
 	     driver.findElement(By.className("btn-success")).click();
 	     System.out.println("leave requested successfully");
+	     Thread.sleep(2000);
+	     ((JavascriptExecutor)driver).executeScript("window.scrollTo(0,0);");
+	     Thread.sleep(2000);
 	     driver.findElement(By.className("hamburger-btn")).click();
 	     Thread.sleep(2000);  
 	     driver.findElement(By.linkText("Request History")).click();
@@ -57,27 +62,30 @@ public class Leave {
 	     driver.findElement(By.className("hamburger-btn")).click();
 	     Thread.sleep(2000);  
 	     driver.findElement(By.linkText("Leave Types")).click();
-	     Thread.sleep(2000);
+	     Thread.sleep(4000);
 	     driver.findElement(By.className("hamburger-btn")).click();
 	     Thread.sleep(2000); 
 	     
 	     
 	      //Requests
-	     driver.findElement(By.xpath("//summary[text()='Requests']")).click();
+	     driver.findElement(By.id("leaverequest")).click();
 	     Thread.sleep(2000);
 	     driver.findElement(By.linkText("Students")).click();
 	     Thread.sleep(2000);
 	     List<WebElement> accept =driver.findElements(By.className("btn-success"));
-	     accept.get(5).click();
+	     accept.get(0).click();
 	     System.out.println("leave requested accepted successfully");
 	     Thread.sleep(2000); 
 	     List<WebElement> reject =driver.findElements(By.className("btn-danger"));
-	     reject.get(4).click();
-	     System.out.println("leave requested accepted successfully");
+	     reject.get(1).click();
+	     System.out.println("leave requested rejected successfully");
 	     Thread.sleep(2000); 
+	     driver.findElement(By.className("hamburger-btn")).click();
+	     Thread.sleep(2000);
 	     driver.findElement(By.linkText("Teachers")).click();
 	     Thread.sleep(2000);
 	     driver.findElement(By.linkText("All Requests")).click();
+	     System.out.println("test successfully");
 	     Thread.sleep(2000);
 	   
 	     }
