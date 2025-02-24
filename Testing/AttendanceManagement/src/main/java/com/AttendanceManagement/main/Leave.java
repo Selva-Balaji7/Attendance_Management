@@ -2,6 +2,7 @@ package com.AttendanceManagement.main;
 
 import java.util.List;
 
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -41,9 +42,11 @@ public class Leave {
 	     Thread.sleep(2000); 
 	     WebElement date=driver.findElement(By.id("startDate"));
 	     date.click();
-	     date.sendKeys("02-22-2025");
+	     date.sendKeys("22-02-2025");
 	     Thread.sleep(2000);
 	     driver.findElement(By.id("reason")).sendKeys("feeling not well");
+	     Thread.sleep(2000);
+	     ((JavascriptExecutor)driver).executeScript("window.scrollTo(0,document.body.scrollHeight);");
 	     Thread.sleep(2000);
 	     driver.findElement(By.className("btn-success")).click();
 	     System.out.println("leave requested successfully");

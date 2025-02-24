@@ -1,34 +1,42 @@
 <div class="user">
-    <div>
-        <h2>Welcome {{user.name}}</h2>
+  <div>
+    <h2>Welcome {{ user.name }}</h2>
+  </div>
+  <div class="userdetails">
+    <ul class="detailslist">
+      <div class="row">
+        <li>Id<span>:</span>{{ user.id }}</li>
+      </div>
+      <div class="row">
+        <li>Email<span>:</span>{{ user.email }}</li>
+      </div>
+      <div class="row">
+        <li>Role<span>:</span>{{ user.role }}</li>
+      </div>
+    </ul>
+  </div>
+
+  <div class="quicklinksgroup">
+    <p>Quick Links</p>
+    <div
+      class="quicklinks"
+      *ngIf="user.permissions.includes(PermissionList[2])"
+    >
+      <a [routerLink]="['/dashboard/markatt']">Give your attendance</a>
     </div>
-    <div class="userdetails">
-        <ul class="detailslist">
-            <div class="row">
-                <li>Id<span>:</span>{{user.id}}</li>
-            </div>
-            <div class="row">
-                <li>Email<span>:</span>{{user.email}}</li>
-            </div>
-            <div class="row">
-                <li>Role<span>:</span>{{user.role}}</li>
-            </div>
-        </ul>
+    <div
+      class="quicklinks"
+      *ngIf="user.permissions.includes(PermissionList[19])"
+    >
+      <a [routerLink]="['/dashboard/studentattreq']"
+        >View Attendance Requests from Students</a
+      >
     </div>
-    
-    <div class="quicklinksgroup">
-        <p>Quick Links</p>
-        <div class="quicklinks"  *ngIf="user.permissions.includes(PermissionList[2])" >
-            <a  [routerLink]="['/dashboard/markatt']">Give your attendance</a>
-        </div>
-        <div class="quicklinks"  *ngIf="user.permissions.includes(PermissionList[19])" >
-            <a  [routerLink]="['/dashboard/studentattreq']">View Attendance Requests from Students</a>
-        </div>
-        <div class="quicklinks"  *ngIf="user.permissions.includes(PermissionList[11])" >
-            <a  [routerLink]="['/dashboard/reqleave']">Request Leave</a>
-        </div>
-    </div> 
+    <div
+      class="quicklinks"
+      *ngIf="user.permissions.includes(PermissionList[11])"
+    >
+      <a [routerLink]="['/dashboard/reqleave']">Request Leave</a>
+    </div>
+  </div>
 </div>
-    
-    
-    

@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.AttendanceManagementTest.main.Extent"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.AttendanceManagementTest.main.AttendanceTest">
+      <class name="com.AttendanceManagementTest.main.RolesTest">
         <methods>
-          <include name="testMarkAttendance"/>
-          <include name="setUp"/>
-          <include name="testViewAllAttendances"/>
-          <include name="testViewStudentAttendances"/>
+          <include name="testAddRole"/>
           <include name="tearDown"/>
-          <include name="testViewTeacherAttendances"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.AttendanceManagementTest.main.AttendanceTest -->
+      </class> <!-- com.AttendanceManagementTest.main.RolesTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

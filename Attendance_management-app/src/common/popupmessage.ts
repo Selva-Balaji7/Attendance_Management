@@ -26,6 +26,6 @@ export function addMessage(message:any, type:any="No"){
     
     setTimeout(() => {
       messagetext.remove();
-    }, 5800);
+    }, 50800);
 }
 

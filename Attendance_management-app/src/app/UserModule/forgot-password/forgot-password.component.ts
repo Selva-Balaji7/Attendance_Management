@@ -36,7 +36,7 @@ export class ForgotPasswordComponent {
   VerifyUser(){
     this.FPdata = this.ForgotPasswordForm.value;
 
-    this._http.getRecord(`User/${this.FPdata.id}`).subscribe(
+    this._http.getRecord(`Login/${this.FPdata.id}`).subscribe(
       (res:any)=>{
         addMessage({type:"success", message:"Found User"});
         if(this.FPdata.email == res.email){
@@ -70,7 +70,7 @@ export class ForgotPasswordComponent {
       profilePicture:this.User.profilePicture
     }
    
-    this._http.updateRecord(`User/${this.User.id}`, this.User).subscribe(
+    this._http.updateRecord(`Login/${this.User.id}`, this.User).subscribe(
       (res)=>{
         addMessage({type:"success", message:"Password Updated"});
         setTimeout(() => {

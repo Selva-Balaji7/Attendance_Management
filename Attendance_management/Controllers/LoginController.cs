@@ -5,6 +5,7 @@ using System.Text;
 using Attendance_management.Data;
 using Attendance_management.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Attendance_management.Controllers
@@ -44,6 +45,29 @@ namespace Attendance_management.Controllers
         }
 
 
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult> GetUser(int id)
+        {
+            try
+            {
+                var response = await _context.Users.FindAsync(id);
+
+                if (response == null)
+                {
+                    return NotFound("User Not Found");
+                }
+
+                return Ok(response);
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+
+
+
         private string GenerateJwtToken(User user)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]));
@@ -65,6 +89,38 @@ namespace Attendance_management.Controllers
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> UpdateUser(int id, User updatedUser)
+        {
+            if (id != updatedUser.Id)
+                return BadRequest();
+
+            _context.Entry(updatedUser).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch
+            {
+                var user = await _context.Users.FindAsync(id);
+
+                if (user == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+
         }
 
 

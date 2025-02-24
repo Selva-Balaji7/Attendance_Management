@@ -43,9 +43,18 @@ export class LeaveRequestComponent {
     this.http.getRecord('LeaveTypes').subscribe((data:any) => {
       this.LeaveTypes = data;
     });
-
+   
+    this.leaveForm.statusChanges.subscribe(status => {
+      console.log("Form Status:", status); // Should be "VALID" for submit button to work
+    });
+  
+    
+    this.leaveForm.valueChanges.subscribe(values => {
+      console.log("Form Values:", values);
+    });
 
   }
+
 
   
 

@@ -2,6 +2,8 @@
 
 import org.openqa.selenium.WebDriver;
 
+
+
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -21,7 +23,7 @@ import org.testng.ITestContext;
 
 // import net.bytebuddy.dynamic.loading.ClassInjector.UsingReflection.System;
 
- public class AttendanceTest{
+ public class AttendanceTest extends Extent{
 
      private WebDriver driver =new ChromeDriver();
      private String baseUrl = "http://localhost:4200";

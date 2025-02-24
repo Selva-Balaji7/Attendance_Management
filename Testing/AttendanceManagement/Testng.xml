@@ -7,7 +7,12 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.AttendanceManagementTest.main.UserTest"/>
+      <class name="com.AttendanceManagementTest.main.UsersTest"/>
       <class name="com.AttendanceManagementTest.main.AttendanceTest"/>
+      <class name="com.AttendanceManagementTest.main.LeaveTest"/>
+      <class name="com.AttendanceManagementTest.main.PermissionsTest"/>
+      <class name="com.AttendanceManagementTest.main.RolesTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
