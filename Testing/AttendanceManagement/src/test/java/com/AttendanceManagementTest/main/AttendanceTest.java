@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 
 
+
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -23,13 +24,13 @@ import org.testng.ITestContext;
 
 // import net.bytebuddy.dynamic.loading.ClassInjector.UsingReflection.System;
 
- public class AttendanceTest extends Extent{
+ public class AttendanceTest {
 
-     private WebDriver driver =new ChromeDriver();
-     private String baseUrl = "http://localhost:4200";
-     private String expectedDashboardURL = baseUrl + "/dashboard";
+     public WebDriver driver =new ChromeDriver();
+     public String baseUrl = "http://localhost:4200";
+     public String expectedDashboardURL = baseUrl + "/dashboard";
 
-     @BeforeTest
+     @BeforeSuite  
      public void setUp(ITestContext context) throws InterruptedException {
          // Set up the ChromeDriver
          System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");       

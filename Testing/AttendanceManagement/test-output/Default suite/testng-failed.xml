@@ -7,29 +7,23 @@
         <methods>
           <include name="testMarkAttendance"/>
           <include name="testAddRole"/>
-          <include name="navigateToEditPermissions"/>
           <include name="testDeleteRole"/>
-          <include name="modifyPermissions"/>
-          <include name="setUp"/>
-          <include name="login"/>
-          <include name="setUp"/>
-          <include name="testViewStudentAttendances"/>
-          <include name="testViewAttendanceHistory"/>
-          <include name="testApplyForLeave"/>
           <include name="testForgotPassword"/>
           <include name="testLeaveRequest"/>
-          <include name="teardown"/>
+          <include name="setUp"/>
           <include name="testViewAllAttendances"/>
           <include name="testApproveRejectUsers"/>
           <include name="testViewUsers"/>
           <include name="testAdminLogin"/>
+          <include name="login"/>
           <include name="testEditRole"/>
-          <include name="navigateToViewPermissions"/>
+          <include name="testViewStudentAttendances"/>
           <include name="testLogin"/>
-          <include name="testLoginAsStudent"/>
-          <include name="setup"/>
-          <include name="testLoginWithInvalidCredentials"/>
           <include name="tearDown"/>
+          <include name="testLoginAsStudent"/>
+          <include name="testViewAttendanceHistory"/>
+          <include name="testApplyForLeave"/>
+          <include name="testLoginWithInvalidCredentials"/>
           <include name="testViewTeacherAttendances"/>
           <include name="testNewUserRegistration"/>
         </methods>

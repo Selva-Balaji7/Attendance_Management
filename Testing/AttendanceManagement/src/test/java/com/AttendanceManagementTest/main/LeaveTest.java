@@ -10,27 +10,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class LeaveTest extends Extent{
-    private WebDriver driver;
+public class LeaveTest extends AttendanceTest{
     
-    @BeforeClass
-    public void setUp() throws InterruptedException {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("http://localhost:4200");
-        Thread.sleep(2000);
-        
-        // Login
-        WebElement userID = driver.findElement(By.id("userid"));
-        userID.sendKeys("999");
-        WebElement password = driver.findElement(By.id("userpassword"));
-        password.sendKeys("Allen@123");
-        WebElement loginButton = driver.findElement(By.className("btn"));
-        loginButton.click();
-        Thread.sleep(2000);
-    }
-    
-    @Test(priority = 1)
+
+    @Test(priority = 7)
     public void testLeaveRequest() throws InterruptedException {
         driver.findElement(By.className("hamburger-btn")).click();
         Thread.sleep(2000);
@@ -62,10 +45,5 @@ public class LeaveTest extends Extent{
         Assert.assertTrue(confirmation.isDisplayed(), "Leave request failed");
     }
     
-    @AfterClass
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
+
 }

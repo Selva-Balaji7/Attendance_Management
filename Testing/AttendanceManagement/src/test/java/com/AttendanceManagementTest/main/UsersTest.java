@@ -12,18 +12,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import java.util.List;
 
-public class UsersTest extends Extent {
-    WebDriver driver;
+public class UsersTest extends RolesTest {
 
-    @BeforeTest
-    public void setup() throws InterruptedException {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("http://localhost:4200");
-        Thread.sleep(2000);
-    }
-
-    @Test(priority = 1)
+    @Test(priority = 16)
     public void testLogin() throws InterruptedException {
         WebElement userID = driver.findElement(By.id("userid"));
         userID.sendKeys("999");
@@ -35,7 +26,7 @@ public class UsersTest extends Extent {
         Assert.assertEquals(driver.getCurrentUrl(), "http://localhost:4200/dashboard", "Login failed");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 17)
     public void testViewUsers() throws InterruptedException {
         driver.findElement(By.className("hamburger-btn")).click();
         Thread.sleep(2000);
@@ -53,7 +44,7 @@ public class UsersTest extends Extent {
         Thread.sleep(2000);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 18)
     public void testApproveRejectUsers() throws InterruptedException {
         driver.findElement(By.className("hamburger-btn")).click();
         Thread.sleep(2000);
@@ -75,8 +66,4 @@ public class UsersTest extends Extent {
         System.out.println("Rejected successfully");
     }
 
-    @AfterTest
-    public void tearDown() {
-        driver.quit();
-    }
 }

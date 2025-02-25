@@ -2,6 +2,7 @@ package com.AttendanceManagementTest.main;
 
 import com.AttendanceManagement.main.User;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,19 +14,10 @@ import org.testng.annotations.*;
 
 import java.time.Duration;
 
-public class UserTest extends Extent {
-    WebDriver driver;
+public class UserTest extends UsersTest {
     WebDriverWait wait;
-    String baseUrl = "http://localhost:4200";
 
-    @BeforeClass
-    public void setUp() {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    }
-
-    @Test(priority = 1)
+    @Test(priority = 19)
     public void testLoginWithInvalidCredentials() {
         driver.get(baseUrl);
 
@@ -45,7 +37,7 @@ public class UserTest extends Extent {
         Assert.assertTrue(passwordWarning.isDisplayed(), "Warning message for password is missing");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 20)
     public void testForgotPassword() {
         driver.findElement(By.linkText("Forgot Password?")).click();
 
@@ -62,7 +54,7 @@ public class UserTest extends Extent {
         Assert.assertTrue(successMessage.isDisplayed(), "User not found message missing");
     }
 
-    @Test(priority = 3)
+    @Test(priority = 21)
     public void testNewUserRegistration() {
         driver.findElement(By.linkText("New User")).click();
 
@@ -80,7 +72,7 @@ public class UserTest extends Extent {
         System.out.println("New user registered successfully");
     }
 
-    @Test(priority = 4)
+    @Test(priority = 22)
     public void testLoginAsStudent() {
         driver.get(baseUrl);
 
@@ -97,7 +89,7 @@ public class UserTest extends Extent {
                 "Login Failed: User not redirected to dashboard");
     }
 
-    @Test(priority = 5)
+    @Test(priority = 23)
     public void testApplyForLeave() {
         driver.findElement(By.linkText("Request Leave")).click();
 
@@ -118,8 +110,4 @@ public class UserTest extends Extent {
         System.out.println("Leave applied successfully");
     }
 
-    @AfterClass
-    public void tearDown() {
-        driver.quit();
-    }
 }

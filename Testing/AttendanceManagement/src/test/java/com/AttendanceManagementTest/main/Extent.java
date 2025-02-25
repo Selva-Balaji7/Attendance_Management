@@ -1,6 +1,7 @@
 package com.AttendanceManagementTest.main;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.util.Calendar;
 
@@ -18,7 +19,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class Extent implements ITestListener, ISuiteListener {
+public class Extent extends UserTest implements ITestListener, ISuiteListener {
 
     public static ExtentReports report;
     public static ExtentTest logger;

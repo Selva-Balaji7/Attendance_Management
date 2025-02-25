@@ -11,19 +11,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class PermissionsTest extends Extent{
-    private WebDriver driver;
-    private String expectedURL = "http://localhost:4200/dashboard";
+public class PermissionsTest extends LeaveTest{
 
-    @BeforeClass
-    public void setup() throws InterruptedException {
-        driver = new ChromeDriver();
-        driver.get("http://localhost:4200");
-        driver.manage().window().maximize();
-        Thread.sleep(2000);
-    }
-
-    @Test(priority = 1)
+    @Test(priority = 8)
     public void login() throws InterruptedException {
         WebElement userID = driver.findElement(By.id("userid"));
         userID.sendKeys("999");
@@ -35,10 +25,10 @@ public class PermissionsTest extends Extent{
         loginButton.click();
 
         Thread.sleep(2000);
-        Assert.assertEquals(driver.getCurrentUrl(), expectedURL, "Login failed");
+        Assert.assertEquals(driver.getCurrentUrl(), expectedDashboardURL, "Login failed");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 9)
     public void navigateToViewPermissions() throws InterruptedException {
         driver.findElement(By.className("hamburger-btn")).click();
         Thread.sleep(2000);
@@ -48,7 +38,7 @@ public class PermissionsTest extends Extent{
         Thread.sleep(2000);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 10)
     public void navigateToEditPermissions() throws InterruptedException {
         driver.findElement(By.className("hamburger-btn")).click();
         Thread.sleep(2000);
@@ -56,7 +46,7 @@ public class PermissionsTest extends Extent{
         Thread.sleep(2000);
     }
 
-    @Test(priority = 4)
+    @Test(priority = 11)
     public void modifyPermissions() throws InterruptedException {
         ((JavascriptExecutor) driver).executeScript("window.scrollTo(0,document.body.scrollHeight);");
         Thread.sleep(2000);
@@ -80,12 +70,6 @@ public class PermissionsTest extends Extent{
 
         driver.findElement(By.className("btn-danger")).click();
         System.out.println("Permission deleted successfully");
-    }
 
-    @AfterClass
-    public void teardown() {
-        if (driver != null) {
-            driver.quit();
-        }
     }
 }
