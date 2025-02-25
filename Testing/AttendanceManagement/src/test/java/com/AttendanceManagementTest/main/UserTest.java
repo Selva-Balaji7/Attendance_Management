@@ -13,7 +13,7 @@ import org.testng.annotations.*;
 
 import java.time.Duration;
 
-public class UserTest extends UsersTest {
+public class UserTest extends Extent {
     WebDriver driver;
     WebDriverWait wait;
     String baseUrl = "http://localhost:4200";

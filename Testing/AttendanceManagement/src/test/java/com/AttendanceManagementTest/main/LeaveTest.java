@@ -10,7 +10,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class LeaveTest extends AttendanceTest{
+public class LeaveTest extends Extent{
     private WebDriver driver;
     
     @BeforeClass

@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import java.util.List;
 
-public class UsersTest extends RolesTest {
+public class UsersTest extends Extent {
     WebDriver driver;
 
     @BeforeTest
