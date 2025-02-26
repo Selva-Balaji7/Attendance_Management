@@ -19,7 +19,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class Extent extends UserTest implements ITestListener, ISuiteListener {
+public class Extent implements ITestListener, ISuiteListener {
 
     public static ExtentReports report;
     public static ExtentTest logger;

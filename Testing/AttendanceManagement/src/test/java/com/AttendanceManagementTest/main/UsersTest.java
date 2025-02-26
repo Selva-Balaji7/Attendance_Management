@@ -7,14 +7,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import java.util.List;
 
-public class UsersTest extends RolesTest {
-
-    @Test(priority = 16)
+public class UsersTest {
+	WebDriver driver=new ChromeDriver();
+	
+    @BeforeClass
     public void testLogin() throws InterruptedException {
         WebElement userID = driver.findElement(By.id("userid"));
         userID.sendKeys("999");
@@ -26,7 +29,7 @@ public class UsersTest extends RolesTest {
         Assert.assertEquals(driver.getCurrentUrl(), "http://localhost:4200/dashboard", "Login failed");
     }
 
-    @Test(priority = 17)
+    @Test(priority = 1)
     public void testViewUsers() throws InterruptedException {
         driver.findElement(By.className("hamburger-btn")).click();
         Thread.sleep(2000);
@@ -44,7 +47,7 @@ public class UsersTest extends RolesTest {
         Thread.sleep(2000);
     }
 
-    @Test(priority = 18)
+    @Test(priority = 2)
     public void testApproveRejectUsers() throws InterruptedException {
         driver.findElement(By.className("hamburger-btn")).click();
         Thread.sleep(2000);
@@ -64,6 +67,12 @@ public class UsersTest extends RolesTest {
         driver.findElement(By.className("rejectbtn")).click();
         Thread.sleep(2000);
         System.out.println("Rejected successfully");
+    }
+    @AfterClass
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
 }

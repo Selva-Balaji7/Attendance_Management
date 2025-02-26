@@ -5,7 +5,7 @@
 	<listener class-name="com.AttendanceManagementTest.main.Extent">
 	</listener>
 	</listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="6" name="Test">
    <classes>
       <class name="com.AttendanceManagementTest.main.Extent"/>
     </classes>

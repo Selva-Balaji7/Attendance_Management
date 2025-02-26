@@ -1,6 +1,7 @@
 package com.AttendanceManagementTest.main;
 
 import org.openqa.selenium.Alert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,10 +14,14 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class RolesTest extends PermissionsTest{
-
-
-    @Test(priority = 12)
+public class RolesTest {
+	private WebDriver driver =new ChromeDriver();
+    private String baseUrl = "http://localhost:4200";
+    private String expectedDashboardURL = baseUrl + "/dashboard";
+    
+    
+    
+    @BeforeClass
     public void testLogin() throws InterruptedException {
         WebElement userID = driver.findElement(By.id("userid"));
         userID.sendKeys("999");
@@ -28,7 +33,7 @@ public class RolesTest extends PermissionsTest{
         Assert.assertEquals(driver.getCurrentUrl(), "http://localhost:4200/dashboard", "Login failed");
     }
 
-    @Test(priority = 13)
+    @Test(priority = 1)
     public void testAddRole() throws InterruptedException {
         driver.findElement(By.className("hamburger-btn")).click();
         Thread.sleep(1000);
@@ -43,7 +48,7 @@ public class RolesTest extends PermissionsTest{
         driver.findElement(By.className("btn-dark")).click();
     }
 
-    @Test(priority = 14)
+    @Test(priority = 2)
     public void testEditRole() throws InterruptedException {
         List<WebElement> editButtons = driver.findElements(By.className("btn-warning"));
         editButtons.get(3).click();
@@ -55,7 +60,7 @@ public class RolesTest extends PermissionsTest{
         handleAlert("Update");
     }
 
-    @Test(priority = 15)
+    @Test(priority = 3)
     public void testDeleteRole() throws InterruptedException {
         List<WebElement> deleteButtons = driver.findElements(By.className("btn-danger"));
         deleteButtons.get(3).click();
@@ -70,6 +75,13 @@ public class RolesTest extends PermissionsTest{
             System.out.println("Alert Ok button clicked successfully for " + action);
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+    
+    @AfterClass
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
         }
     }
 

@@ -14,50 +14,50 @@ import org.testng.annotations.*;
 
 import java.time.Duration;
 
-public class UserTest extends UsersTest {
-    WebDriverWait wait;
+public class UserTest {
+	WebDriver driver=new ChromeDriver();
+	 public String baseUrl = "http://localhost:4200";
+  
 
-    @Test(priority = 19)
+    @Test(priority = 1)
     public void testLoginWithInvalidCredentials() {
         driver.get(baseUrl);
-
-        WebElement userID = wait.until(ExpectedConditions.elementToBeClickable(By.id("userid")));
+        Thread.sleep(2000);
+        WebElement userID=driver.findElement(By.id("userid")));
         userID.sendKeys("1");
-
+        Thread.sleep(2000);
         WebElement password = driver.findElement(By.id("userpassword"));
         password.sendKeys("Allensdfsdfs23");
-
+        Thread.sleep(2000);
         WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
         Assert.assertFalse(loginButton.isEnabled(), "Test Failed: Login button should be disabled for invalid credentials");
-
         WebElement idWarning = driver.findElement(By.xpath("//div[contains(text(), 'Id is a 3 or 4 Digit Number')]"));
         Assert.assertTrue(idWarning.isDisplayed(), "Warning message for ID is missing");
-
         WebElement passwordWarning = driver.findElement(By.xpath("//div[contains(text(), 'InValid Password')]"));
         Assert.assertTrue(passwordWarning.isDisplayed(), "Warning message for password is missing");
     }
 
-    @Test(priority = 20)
+    @Test(priority = 2)
     public void testForgotPassword() {
         driver.findElement(By.linkText("Forgot Password?")).click();
 
-        WebElement userID = wait.until(ExpectedConditions.elementToBeClickable(By.id("userid")));
+        WebElement userID = driver.findElement(By.id("userid")));
         userID.sendKeys("999");
-
+        Thread.sleep(2000);
         WebElement email = driver.findElement(By.id("email"));
         email.sendKeys("allen@gmail.com");
-
+        Thread.sleep(2000);
         driver.findElement(By.className("btn-primary")).click();
-
+        Thread.sleep(2000);
         WebElement successMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//div[contains(text(), 'Found User')]")));
+        By.xpath("//div[contains(text(), 'Found User')]")));
         Assert.assertTrue(successMessage.isDisplayed(), "User not found message missing");
     }
 
-    @Test(priority = 21)
-    public void testNewUserRegistration() {
+    @Test(priority = 3)
+    public void testNewUserRegistration() throws InterruptedException {
         driver.findElement(By.linkText("New User")).click();
-
+        Thread.sleep(2000);
         driver.findElement(By.id("userid")).sendKeys("4899");
         driver.findElement(By.id("username")).sendKeys("nitheesh");
         driver.findElement(By.id("useremail")).sendKeys("nitheesh@gmail.com");
@@ -72,7 +72,7 @@ public class UserTest extends UsersTest {
         System.out.println("New user registered successfully");
     }
 
-    @Test(priority = 22)
+    @Test(priority = 4)
     public void testLoginAsStudent() {
         driver.get(baseUrl);
 
@@ -89,7 +89,7 @@ public class UserTest extends UsersTest {
                 "Login Failed: User not redirected to dashboard");
     }
 
-    @Test(priority = 23)
+    @Test(priority = 5)
     public void testApplyForLeave() {
         driver.findElement(By.linkText("Request Leave")).click();
 
@@ -108,6 +108,12 @@ public class UserTest extends UsersTest {
         driver.findElement(By.className("btn-success")).click();
 
         System.out.println("Leave applied successfully");
+    }
+    @AfterClass
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
 }
