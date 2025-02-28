@@ -46,7 +46,19 @@ Types of automation Tools:
 	   5.Postman: API functional testing.
 	   6.Katalon studio: All in one testing tool for(web,API,mobile).
 	   
-2.Non-Functional automation tool:	  
+2.Non-Functional automation tool:
+   To automate non-functional like performance,speed, scalability related testcases, we go for non-functional automation tool.
+   
+   Tools:
+    1.Jmeter: opensource tool for load and performance testing
+	2.Load runner:Enterprise tool for perfomance and stress testing
+	3.Gatling:Developer-friendly performance testing tool.
+	4.k6: Modern load testing tool for developers.
 		
-Selenium: web application automation tool
+
+
+
+
+
+
 

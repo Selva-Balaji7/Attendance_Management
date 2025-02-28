@@ -21,13 +21,12 @@ public class PermissionsTest {
     public void testlogin() throws InterruptedException {
         WebElement userID = driver.findElement(By.id("userid"));
         userID.sendKeys("999");
-
+        Thread.sleep(2000);
         WebElement password = driver.findElement(By.id("userpassword"));
         password.sendKeys("Allen@123");
-
+        Thread.sleep(2000);
         WebElement loginButton = driver.findElement(By.className("btn"));
         loginButton.click();
-
         Thread.sleep(2000);
         Assert.assertEquals(driver.getCurrentUrl(), expectedDashboardURL, "Login failed");
     }

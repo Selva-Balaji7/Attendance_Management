@@ -16,14 +16,15 @@ import java.time.Duration;
 
 public class UserTest {
 	WebDriver driver=new ChromeDriver();
+	WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(10));
 	 public String baseUrl = "http://localhost:4200";
   
 
     @Test(priority = 1)
-    public void testLoginWithInvalidCredentials() {
+    public void testLoginWithInvalidCredentials() throws InterruptedException {
         driver.get(baseUrl);
         Thread.sleep(2000);
-        WebElement userID=driver.findElement(By.id("userid")));
+        WebElement userID=driver.findElement(By.id("userid"));
         userID.sendKeys("1");
         Thread.sleep(2000);
         WebElement password = driver.findElement(By.id("userpassword"));
@@ -38,10 +39,10 @@ public class UserTest {
     }
 
     @Test(priority = 2)
-    public void testForgotPassword() {
+    public void testForgotPassword() throws InterruptedException {
         driver.findElement(By.linkText("Forgot Password?")).click();
 
-        WebElement userID = driver.findElement(By.id("userid")));
+        WebElement userID = driver.findElement(By.id("userid"));
         userID.sendKeys("999");
         Thread.sleep(2000);
         WebElement email = driver.findElement(By.id("email"));
@@ -49,8 +50,7 @@ public class UserTest {
         Thread.sleep(2000);
         driver.findElement(By.className("btn-primary")).click();
         Thread.sleep(2000);
-        WebElement successMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(
-        By.xpath("//div[contains(text(), 'Found User')]")));
+        WebElement successMessage = driver.findElement(By.xpath("//div[contains(text(), 'Found User')]"));
         Assert.assertTrue(successMessage.isDisplayed(), "User not found message missing");
     }
 
@@ -73,15 +73,15 @@ public class UserTest {
     }
 
     @Test(priority = 4)
-    public void testLoginAsStudent() {
+    public void testLoginAsStudent() throws InterruptedException {
         driver.get(baseUrl);
 
-        WebElement userID = wait.until(ExpectedConditions.elementToBeClickable(By.id("userid")));
+        WebElement userID = driver.findElement(By.id("userid"));
         userID.sendKeys("101");
-
+        Thread.sleep(2000);
         WebElement password = driver.findElement(By.id("userpassword"));
         password.sendKeys("Johnson@123");
-
+        Thread.sleep(2000);
         driver.findElement(By.className("btn")).click();
         wait.until(ExpectedConditions.urlToBe("http://localhost:4200/dashboard"));
 
