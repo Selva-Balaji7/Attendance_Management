@@ -54,7 +54,7 @@
 					<i class='mdi-hardware-desktop-windows'></i>
 				</li>
 				<li>
-					<span class='suite-started-time'>2025-02-26 07:54:22</span>
+					<span class='suite-started-time'>2025-02-28 07:42:26</span>
 				</li>
 				<li>
 					<span>v2.41.1</span>
@@ -84,25 +84,25 @@
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-current'> 
 							<span class='panel-name'>Total Time Taken (Current Run)</span> 
-							<span class='suite-total-time-current-value panel-lead'>0h 0m 24s+299ms</span> 
+							<span class='suite-total-time-current-value panel-lead'>0h 0m 20s+902ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-overall'> 
 							<span class='panel-name'>Total Time Taken (Overall)</span> 
-							<span class='suite-total-time-overall-value panel-lead'>0h 0m 24s+299ms</span> 
+							<span class='suite-total-time-overall-value panel-lead'>0h 0m 20s+902ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-start-time'>
 						<div class='card accent green-accent'> 
 							<span class='panel-name'>Start</span> 
-							<span class='panel-lead suite-started-time'>2025-02-26 07:53:58</span> 
+							<span class='panel-lead suite-started-time'>2025-02-28 07:42:05</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-end-time'>
 						<div class='card accent pink-accent'> 
 							<span class='panel-name'>End</span> 
-							<span class='panel-lead suite-ended-time'>2025-02-26 07:54:22</span> 
+							<span class='panel-lead suite-ended-time'>2025-02-28 07:42:26</span> 
 						</div> 
 					</div>
 				</div>
@@ -238,17 +238,17 @@
 						<div class='card-panel no-padding-h no-padding-v no-margin-v'>
 							<div class='wrapper'>
 								<ul id='test-collection' class='test-collection'>
-										<li class='collection-item test displayed active fail ' extentid='30f98358-9831-41cc-b0c6-220318b04e7c'>
+										<li class='collection-item test displayed active fail ' extentid='bd0398ba-f75f-4d5a-95d9-a8d19dde9b08'>
 											<div class='test-head'>
-												<span class='test-name'>testLoginWithInvalidCredentials </span>
+												<span class='test-name'>testAdminLogin <i class='tooltipped mdi-alert-error' data-position='top' data-delay='50' data-tooltip='Close was called before test could end safely using EndTest.'></i></span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:53:59</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:53:59</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+227ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:05</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:26</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 20s+590ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -265,13 +265,70 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:53:59</td>
+																	<td class='timestamp'>07:42:05</td>
+																	<td class='step-details'>Executing test: testAdminLogin</td>
+																</tr>
+																<tr>
+																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
+																	<td class='timestamp'>07:42:26</td>
+																	<td class='step-details'><pre>com.relevantcodes.extentreports.ExtentTestInterruptedException: Close was called before test could end safely using EndTest.
+	at com.relevantcodes.extentreports.Report.terminate(Report.java:425)
+	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:917)
+	at com.AttendanceManagementTest.main.Extent.onFinish(Extent.java:39)
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:215)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:278)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active pass ' extentid='69e1140d-bde5-4d1d-a7b9-24f0f0e8dba4'>
+											<div class='test-head'>
+												<span class='test-name'>testLoginWithInvalidCredentials </span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
+												<span class='category-assigned hide '></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:05</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:09</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 3s+507ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
+																	<td class='timestamp'>07:42:05</td>
 																	<td class='step-details'>Executing test: testLoginWithInvalidCredentials</td>
 																</tr>
 																<tr>
-																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:53:59</td>
-																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>07:42:09</td>
+																	<td class='step-details'>Test passed: testAdminLogin</td>
 																</tr>
 														</tbody>
 													</table>
@@ -280,17 +337,17 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='269a3b0f-9604-4fd8-81de-4b77fce862b8'>
+										<li class='collection-item test displayed active fail ' extentid='9d67b044-e41a-4d62-9bab-ce33a4ef8259'>
 											<div class='test-head'>
-												<span class='test-name'>testForgotPassword <i class='tooltipped mdi-alert-error' data-position='top' data-delay='50' data-tooltip='Close was called before test could end safely using EndTest.'></i></span>
+												<span class='test-name'>testMarkAttendance <i class='tooltipped mdi-alert-error' data-position='top' data-delay='50' data-tooltip='Close was called before test could end safely using EndTest.'></i></span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:53:59</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:22</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 22s+572ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:09</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:26</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 17s+74ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -307,12 +364,12 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:53:59</td>
-																	<td class='step-details'>Executing test: testForgotPassword</td>
+																	<td class='timestamp'>07:42:09</td>
+																	<td class='step-details'>Executing test: testMarkAttendance</td>
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:22</td>
+																	<td class='timestamp'>07:42:26</td>
 																	<td class='step-details'><pre>com.relevantcodes.extentreports.ExtentTestInterruptedException: Close was called before test could end safely using EndTest.
 	at com.relevantcodes.extentreports.Report.terminate(Report.java:425)
 	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:917)
@@ -337,17 +394,17 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='31e466d8-432e-4d70-946e-325ff6684059'>
+										<li class='collection-item test displayed active fail ' extentid='e9f3c80b-d33c-41f5-b84c-d7f4e73d5379'>
 											<div class='test-head'>
-												<span class='test-name'>testViewUsers <i class='tooltipped mdi-alert-error' data-position='top' data-delay='50' data-tooltip='Close was called before test could end safely using EndTest.'></i></span>
+												<span class='test-name'>testLeaveRequest <i class='tooltipped mdi-alert-error' data-position='top' data-delay='50' data-tooltip='Close was called before test could end safely using EndTest.'></i></span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:22</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 22s+384ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:12</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:26</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 13s+938ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -364,12 +421,12 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Executing test: testViewUsers</td>
+																	<td class='timestamp'>07:42:12</td>
+																	<td class='step-details'>Executing test: testLeaveRequest</td>
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:22</td>
+																	<td class='timestamp'>07:42:26</td>
 																	<td class='step-details'><pre>com.relevantcodes.extentreports.ExtentTestInterruptedException: Close was called before test could end safely using EndTest.
 	at com.relevantcodes.extentreports.Report.terminate(Report.java:425)
 	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:917)
@@ -394,7 +451,7 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active skip ' extentid='abf07a0a-bcef-4ce7-b032-86f1d417c310'>
+										<li class='collection-item test displayed active skip ' extentid='1b6fcff1-cb67-4a08-b7cb-6f7497ea3f4e'>
 											<div class='test-head'>
 												<span class='test-name'>navigateToViewPermissions </span>
 												<span class='test-status label right outline capitalize skip'>skip</span>
@@ -402,9 +459,9 @@
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+1ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:12</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:12</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+3ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -421,12 +478,12 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:00</td>
+																	<td class='timestamp'>07:42:12</td>
 																	<td class='step-details'>Executing test: navigateToViewPermissions</td>
 																</tr>
 																<tr>
 																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>07:54:00</td>
+																	<td class='timestamp'>07:42:12</td>
 																	<td class='step-details'>Test skipped: navigateToViewPermissions</td>
 																</tr>
 														</tbody>
@@ -436,7 +493,7 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active skip ' extentid='0c27c1c7-fc49-4e1f-915a-b43322802f6b'>
+										<li class='collection-item test displayed active skip ' extentid='916d84c5-b310-44b1-88a9-8c7d573640de'>
 											<div class='test-head'>
 												<span class='test-name'>navigateToEditPermissions </span>
 												<span class='test-status label right outline capitalize skip'>skip</span>
@@ -444,9 +501,9 @@
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+4ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:12</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:12</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+11ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -463,54 +520,12 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:00</td>
+																	<td class='timestamp'>07:42:12</td>
 																	<td class='step-details'>Executing test: navigateToEditPermissions</td>
 																</tr>
 																<tr>
 																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Test skipped: testViewUsers</td>
-																</tr>
-														</tbody>
-													</table>
-													<ul class='collapsible node-list' data-collapsible='accordion'>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li class='collection-item test displayed active skip ' extentid='139c0ef4-14cb-499f-87ee-b5f3d977cb3e'>
-											<div class='test-head'>
-												<span class='test-name'>testAddRole </span>
-												<span class='test-status label right outline capitalize skip'>skip</span>
-												<span class='category-assigned hide '></span>
-											</div>
-											<div class='test-body'>
-												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+1ms</span>
-												</div>
-												<div class='test-desc'></div>
-												<div class='test-attributes'>
-												</div>
-												<div class='test-steps'>
-													<table class='bordered table-results'>
-														<thead>
-															<tr>
-																<th>Status</th>
-																<th>Timestamp</th>
-																<th>Details</th>
-															</tr>
-														</thead>
-														<tbody>
-																<tr>
-																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Executing test: testAddRole</td>
-																</tr>
-																<tr>
-																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>07:54:00</td>
+																	<td class='timestamp'>07:42:12</td>
 																	<td class='step-details'>Test skipped: navigateToEditPermissions</td>
 																</tr>
 														</tbody>
@@ -520,7 +535,7 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active skip ' extentid='47c3d126-d7d0-42a1-834b-00a1b98d2ba7'>
+										<li class='collection-item test displayed active skip ' extentid='ec0a0691-edcd-4a5f-a8db-e7f3b51d3cbd'>
 											<div class='test-head'>
 												<span class='test-name'>modifyPermissions </span>
 												<span class='test-status label right outline capitalize skip'>skip</span>
@@ -528,55 +543,8 @@
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+5ms</span>
-												</div>
-												<div class='test-desc'></div>
-												<div class='test-attributes'>
-												</div>
-												<div class='test-steps'>
-													<table class='bordered table-results'>
-														<thead>
-															<tr>
-																<th>Status</th>
-																<th>Timestamp</th>
-																<th>Details</th>
-															</tr>
-														</thead>
-														<tbody>
-																<tr>
-																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Executing test: modifyPermissions</td>
-																</tr>
-																<tr>
-																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Test skipped: modifyPermissions</td>
-																</tr>
-																<tr>
-																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Test skipped: testAddRole</td>
-																</tr>
-														</tbody>
-													</table>
-													<ul class='collapsible node-list' data-collapsible='accordion'>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li class='collection-item test displayed active skip ' extentid='8067b848-f354-4efa-804a-c069eb00afc9'>
-											<div class='test-head'>
-												<span class='test-name'>testEditRole </span>
-												<span class='test-status label right outline capitalize skip'>skip</span>
-												<span class='category-assigned hide '></span>
-											</div>
-											<div class='test-body'>
-												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:00</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:12</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:12</span>
 													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+2ms</span>
 												</div>
 												<div class='test-desc'></div>
@@ -594,13 +562,13 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Executing test: testEditRole</td>
+																	<td class='timestamp'>07:42:12</td>
+																	<td class='step-details'>Executing test: modifyPermissions</td>
 																</tr>
 																<tr>
 																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Test skipped: testEditRole</td>
+																	<td class='timestamp'>07:42:12</td>
+																	<td class='step-details'>Test skipped: modifyPermissions</td>
 																</tr>
 														</tbody>
 													</table>
@@ -609,17 +577,17 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='cb53f803-ec72-4fbc-9ead-a7102b721950'>
+										<li class='collection-item test displayed active fail ' extentid='02757f02-eb57-4a2c-ba39-0e71c174810e'>
 											<div class='test-head'>
-												<span class='test-name'>testDeleteRole <i class='tooltipped mdi-alert-error' data-position='top' data-delay='50' data-tooltip='Close was called before test could end safely using EndTest.'></i></span>
+												<span class='test-name'>testAddRole <i class='tooltipped mdi-alert-error' data-position='top' data-delay='50' data-tooltip='Close was called before test could end safely using EndTest.'></i></span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:22</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 22s+232ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:13</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:26</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 13s+257ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -636,12 +604,12 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Executing test: testDeleteRole</td>
+																	<td class='timestamp'>07:42:13</td>
+																	<td class='step-details'>Executing test: testAddRole</td>
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:22</td>
+																	<td class='timestamp'>07:42:26</td>
 																	<td class='step-details'><pre>com.relevantcodes.extentreports.ExtentTestInterruptedException: Close was called before test could end safely using EndTest.
 	at com.relevantcodes.extentreports.Report.terminate(Report.java:425)
 	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:917)
@@ -666,17 +634,17 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active skip ' extentid='60e0c96f-c789-412e-a8f2-25b4ba8caaa1'>
+										<li class='collection-item test displayed active skip ' extentid='a22ce99a-a992-4ee3-8e36-07032e54f507'>
 											<div class='test-head'>
-												<span class='test-name'>testApproveRejectUsers </span>
+												<span class='test-name'>testViewUsers </span>
 												<span class='test-status label right outline capitalize skip'>skip</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:00</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+6ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:16</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:16</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+1ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -693,18 +661,13 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Executing test: testApproveRejectUsers</td>
+																	<td class='timestamp'>07:42:16</td>
+																	<td class='step-details'>Executing test: testViewUsers</td>
 																</tr>
 																<tr>
 																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Test skipped: testApproveRejectUsers</td>
-																</tr>
-																<tr>
-																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>07:54:00</td>
-																	<td class='step-details'>Test skipped: testDeleteRole</td>
+																	<td class='timestamp'>07:42:16</td>
+																	<td class='step-details'>Test skipped: testViewUsers</td>
 																</tr>
 														</tbody>
 													</table>
@@ -713,17 +676,17 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='c5fc4316-5172-4abf-9f43-3440c0889b49'>
+										<li class='collection-item test displayed active fail ' extentid='5899c031-de5a-4fa4-9894-1230f3e34a3e'>
 											<div class='test-head'>
-												<span class='test-name'>testAdminLogin </span>
+												<span class='test-name'>testApproveRejectUsers </span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:01</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:04</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 3s+97ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:16</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:16</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+4ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -740,13 +703,23 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:01</td>
-																	<td class='step-details'>Executing test: testAdminLogin</td>
+																	<td class='timestamp'>07:42:16</td>
+																	<td class='step-details'>Executing test: testApproveRejectUsers</td>
+																</tr>
+																<tr>
+																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
+																	<td class='timestamp'>07:42:16</td>
+																	<td class='step-details'>Test skipped: testApproveRejectUsers</td>
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:04</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536643209.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536643209.png' /></a></td>
+																	<td class='timestamp'>07:42:16</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
+																</tr>
+																<tr>
+																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
+																	<td class='timestamp'>07:42:17</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
 																</tr>
 														</tbody>
 													</table>
@@ -755,7 +728,49 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='45a9daf1-51e1-4740-a182-303710b178f6'>
+										<li class='collection-item test displayed active pass ' extentid='6529be80-ff9c-4393-bfc9-f193e7d60df5'>
+											<div class='test-head'>
+												<span class='test-name'>testForgotPassword </span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
+												<span class='category-assigned hide '></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:17</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:18</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 1s+233ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
+																	<td class='timestamp'>07:42:17</td>
+																	<td class='step-details'>Executing test: testForgotPassword</td>
+																</tr>
+																<tr>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>07:42:18</td>
+																	<td class='step-details'>Test passed: testForgotPassword</td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active fail ' extentid='5c5d521d-91de-4ae0-b256-b6eda70be465'>
 											<div class='test-head'>
 												<span class='test-name'>testNewUserRegistration </span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
@@ -763,9 +778,9 @@
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:04</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:06</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 1s+864ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:18</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:18</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+19ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -782,13 +797,13 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:04</td>
+																	<td class='timestamp'>07:42:18</td>
 																	<td class='step-details'>Executing test: testNewUserRegistration</td>
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:06</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536645051.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536645051.png' /></a></td>
+																	<td class='timestamp'>07:42:18</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
 																</tr>
 														</tbody>
 													</table>
@@ -797,17 +812,17 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='aca0a452-2ffa-40ff-bb9b-99dc49bebf5a'>
+										<li class='collection-item test displayed active pass ' extentid='8dba37b1-0397-431f-8e01-534a73e9fab0'>
 											<div class='test-head'>
 												<span class='test-name'>testLoginAsStudent </span>
-												<span class='test-status label right outline capitalize fail'>fail</span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:06</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:09</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 2s+370ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:18</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:21</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 2s+414ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -824,13 +839,13 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:06</td>
+																	<td class='timestamp'>07:42:18</td>
 																	<td class='step-details'>Executing test: testLoginAsStudent</td>
 																</tr>
 																<tr>
-																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:09</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536647560.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536647560.png' /></a></td>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>07:42:21</td>
+																	<td class='step-details'>Test passed: testLoginAsStudent</td>
 																</tr>
 														</tbody>
 													</table>
@@ -839,17 +854,17 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='d369f72e-6bf0-410b-a953-80d53474d28c'>
+										<li class='collection-item test displayed active fail ' extentid='70a3a047-1234-47ac-ad6e-05b0fbe3258b'>
 											<div class='test-head'>
-												<span class='test-name'>testApplyForLeave <i class='tooltipped mdi-alert-error' data-position='top' data-delay='50' data-tooltip='Close was called before test could end safely using EndTest.'></i></span>
+												<span class='test-name'>testApplyForLeave </span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:09</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:22</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 13s+354ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:21</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:21</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+188ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -866,28 +881,13 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:09</td>
+																	<td class='timestamp'>07:42:21</td>
 																	<td class='step-details'>Executing test: testApplyForLeave</td>
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:22</td>
-																	<td class='step-details'><pre>com.relevantcodes.extentreports.ExtentTestInterruptedException: Close was called before test could end safely using EndTest.
-	at com.relevantcodes.extentreports.Report.terminate(Report.java:425)
-	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:917)
-	at com.AttendanceManagementTest.main.Extent.onFinish(Extent.java:39)
-	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:215)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:278)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></td>
+																	<td class='timestamp'>07:42:21</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
 																</tr>
 														</tbody>
 													</table>
@@ -896,101 +896,7 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='f82f4a72-0a4c-4aba-b5e6-652ff0e04b25'>
-											<div class='test-head'>
-												<span class='test-name'>testLeaveRequest </span>
-												<span class='test-status label right outline capitalize fail'>fail</span>
-												<span class='category-assigned hide '></span>
-											</div>
-											<div class='test-body'>
-												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:09</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:10</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+340ms</span>
-												</div>
-												<div class='test-desc'></div>
-												<div class='test-attributes'>
-												</div>
-												<div class='test-steps'>
-													<table class='bordered table-results'>
-														<thead>
-															<tr>
-																<th>Status</th>
-																<th>Timestamp</th>
-																<th>Details</th>
-															</tr>
-														</thead>
-														<tbody>
-																<tr>
-																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:09</td>
-																	<td class='step-details'>Executing test: testLeaveRequest</td>
-																</tr>
-																<tr>
-																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:10</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536649309.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536649309.png' /></a></td>
-																</tr>
-																<tr>
-																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:11</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536650078.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536650078.png' /></a></td>
-																</tr>
-																<tr>
-																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:14</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536653417.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536653417.png' /></a></td>
-																</tr>
-														</tbody>
-													</table>
-													<ul class='collapsible node-list' data-collapsible='accordion'>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li class='collection-item test displayed active fail ' extentid='d844b88e-8332-4842-90d6-e72cf582157a'>
-											<div class='test-head'>
-												<span class='test-name'>testMarkAttendance </span>
-												<span class='test-status label right outline capitalize fail'>fail</span>
-												<span class='category-assigned hide '></span>
-											</div>
-											<div class='test-body'>
-												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:14</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:15</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 1s+64ms</span>
-												</div>
-												<div class='test-desc'></div>
-												<div class='test-attributes'>
-												</div>
-												<div class='test-steps'>
-													<table class='bordered table-results'>
-														<thead>
-															<tr>
-																<th>Status</th>
-																<th>Timestamp</th>
-																<th>Details</th>
-															</tr>
-														</thead>
-														<tbody>
-																<tr>
-																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:14</td>
-																	<td class='step-details'>Executing test: testMarkAttendance</td>
-																</tr>
-																<tr>
-																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:15</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536654545.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536654545.png' /></a></td>
-																</tr>
-														</tbody>
-													</table>
-													<ul class='collapsible node-list' data-collapsible='accordion'>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li class='collection-item test displayed active fail ' extentid='07b4535e-ea18-4fbb-93a9-ea924449b168'>
+										<li class='collection-item test displayed active fail ' extentid='170cc08d-d6fc-4885-8774-e851adaa375e'>
 											<div class='test-head'>
 												<span class='test-name'>testViewAttendanceHistory </span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
@@ -998,9 +904,9 @@
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:15</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:16</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 1s+91ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:21</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:22</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+963ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -1017,13 +923,18 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:15</td>
+																	<td class='timestamp'>07:42:21</td>
 																	<td class='step-details'>Executing test: testViewAttendanceHistory</td>
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:16</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536655615.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536655615.png' /></a></td>
+																	<td class='timestamp'>07:42:22</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
+																</tr>
+																<tr>
+																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
+																	<td class='timestamp'>07:42:22</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
 																</tr>
 														</tbody>
 													</table>
@@ -1032,7 +943,7 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='85151033-b629-40f1-9cbf-c349963df827'>
+										<li class='collection-item test displayed active fail ' extentid='99798e02-85a5-4361-a640-d2759ad71664'>
 											<div class='test-head'>
 												<span class='test-name'>testViewStudentAttendances </span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
@@ -1040,9 +951,9 @@
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:16</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:17</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 1s+120ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:22</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:23</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 1s+131ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -1059,13 +970,13 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:16</td>
+																	<td class='timestamp'>07:42:22</td>
 																	<td class='step-details'>Executing test: testViewStudentAttendances</td>
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:17</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536656736.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536656736.png' /></a></td>
+																	<td class='timestamp'>07:42:23</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
 																</tr>
 														</tbody>
 													</table>
@@ -1074,7 +985,7 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='5c94c6ec-122c-432e-a8dd-dedb8037d2c5'>
+										<li class='collection-item test displayed active fail ' extentid='641a4b75-7365-4ecd-9406-caafe7ed0a58'>
 											<div class='test-head'>
 												<span class='test-name'>testViewTeacherAttendances </span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
@@ -1082,9 +993,9 @@
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:17</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:19</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 1s+393ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:23</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:24</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 1s+114ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -1101,13 +1012,13 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:17</td>
+																	<td class='timestamp'>07:42:23</td>
 																	<td class='step-details'>Executing test: testViewTeacherAttendances</td>
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:19</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536657803.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536657803.png' /></a></td>
+																	<td class='timestamp'>07:42:24</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
 																</tr>
 														</tbody>
 													</table>
@@ -1116,7 +1027,7 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='be7c4759-2c6f-441e-9d72-b42553147d56'>
+										<li class='collection-item test displayed active fail ' extentid='408a8bd2-a8a8-4b5b-9e63-291e4c30628f'>
 											<div class='test-head'>
 												<span class='test-name'>testViewAllAttendances </span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
@@ -1124,9 +1035,9 @@
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-26 07:54:19</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-26 07:54:20</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 1s+197ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:24</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:25</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+140ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -1143,13 +1054,102 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>07:54:19</td>
+																	<td class='timestamp'>07:42:24</td>
 																	<td class='step-details'>Executing test: testViewAllAttendances</td>
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>07:54:20</td>
-																	<td class='step-details'>Test failed. Screenshot: <a href='E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536659277.png' data-featherlight='image'><img class='report-img' src='file:///E:\FinalProj\Testing\AttendanceManagement\screenshots\Screenshot-1740536659277.png' /></a></td>
+																	<td class='timestamp'>07:42:25</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active fail ' extentid='2cd7b682-061e-470a-a85b-124741b59c01'>
+											<div class='test-head'>
+												<span class='test-name'>testEditRole </span>
+												<span class='test-status label right outline capitalize fail'>fail</span>
+												<span class='category-assigned hide '></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:25</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:25</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+23ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
+																	<td class='timestamp'>07:42:25</td>
+																	<td class='step-details'>Executing test: testEditRole</td>
+																</tr>
+																<tr>
+																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
+																	<td class='timestamp'>07:42:25</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active fail ' extentid='2bd6d916-1a74-4eb8-904c-225a816148f0'>
+											<div class='test-head'>
+												<span class='test-name'>testDeleteRole </span>
+												<span class='test-status label right outline capitalize fail'>fail</span>
+												<span class='category-assigned hide '></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2025-02-28 07:42:25</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2025-02-28 07:42:25</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+12ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
+																	<td class='timestamp'>07:42:25</td>
+																	<td class='step-details'>Executing test: testDeleteRole</td>
+																</tr>
+																<tr>
+																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
+																	<td class='timestamp'>07:42:25</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
+																</tr>
+																<tr>
+																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
+																	<td class='timestamp'>07:42:26</td>
+																	<td class='step-details'>Test failed. WebDriver instance is null.</td>
 																</tr>
 														</tbody>
 													</table>
@@ -1227,8 +1227,8 @@
 															</thead>
 															<tbody>
                                                                    <tr class='fail'>
-                                                                       <td>2025-02-26 07:53:59</td>
-                                                                       <td><span class='exception-link linked' extentid='269a3b0f-9604-4fd8-81de-4b77fce862b8'>testForgotPassword</span></td>
+                                                                       <td>2025-02-28 07:42:05</td>
+                                                                       <td><span class='exception-link linked' extentid='bd0398ba-f75f-4d5a-95d9-a8d19dde9b08'>testAdminLogin</span></td>
                                                                        <td><pre class='exception-message'>com.relevantcodes.extentreports.ExtentTestInterruptedException: Close was called before test could end safely using EndTest.
 	at com.relevantcodes.extentreports.Report.terminate(Report.java:425)
 	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:917)
@@ -1247,8 +1247,8 @@
 </pre></td>
                                                                    </tr>
                                                                    <tr class='fail'>
-                                                                       <td>2025-02-26 07:54:00</td>
-                                                                       <td><span class='exception-link linked' extentid='31e466d8-432e-4d70-946e-325ff6684059'>testViewUsers</span></td>
+                                                                       <td>2025-02-28 07:42:09</td>
+                                                                       <td><span class='exception-link linked' extentid='9d67b044-e41a-4d62-9bab-ce33a4ef8259'>testMarkAttendance</span></td>
                                                                        <td><pre class='exception-message'>com.relevantcodes.extentreports.ExtentTestInterruptedException: Close was called before test could end safely using EndTest.
 	at com.relevantcodes.extentreports.Report.terminate(Report.java:425)
 	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:917)
@@ -1267,8 +1267,8 @@
 </pre></td>
                                                                    </tr>
                                                                    <tr class='fail'>
-                                                                       <td>2025-02-26 07:54:00</td>
-                                                                       <td><span class='exception-link linked' extentid='cb53f803-ec72-4fbc-9ead-a7102b721950'>testDeleteRole</span></td>
+                                                                       <td>2025-02-28 07:42:12</td>
+                                                                       <td><span class='exception-link linked' extentid='e9f3c80b-d33c-41f5-b84c-d7f4e73d5379'>testLeaveRequest</span></td>
                                                                        <td><pre class='exception-message'>com.relevantcodes.extentreports.ExtentTestInterruptedException: Close was called before test could end safely using EndTest.
 	at com.relevantcodes.extentreports.Report.terminate(Report.java:425)
 	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:917)
@@ -1287,8 +1287,8 @@
 </pre></td>
                                                                    </tr>
                                                                    <tr class='fail'>
-                                                                       <td>2025-02-26 07:54:09</td>
-                                                                       <td><span class='exception-link linked' extentid='d369f72e-6bf0-410b-a953-80d53474d28c'>testApplyForLeave</span></td>
+                                                                       <td>2025-02-28 07:42:13</td>
+                                                                       <td><span class='exception-link linked' extentid='02757f02-eb57-4a2c-ba39-0e71c174810e'>testAddRole</span></td>
                                                                        <td><pre class='exception-message'>com.relevantcodes.extentreports.ExtentTestInterruptedException: Close was called before test could end safely using EndTest.
 	at com.relevantcodes.extentreports.Report.terminate(Report.java:425)
 	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:917)

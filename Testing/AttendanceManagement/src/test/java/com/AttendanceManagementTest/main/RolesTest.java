@@ -1,70 +1,59 @@
 package com.AttendanceManagementTest.main;
 
-import org.openqa.selenium.Alert;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
+import java.time.Duration;
 import java.util.List;
 
 public class RolesTest {
-	private WebDriver driver =new ChromeDriver();
+    private WebDriver driver;
+    private WebDriverWait wait;
     private String baseUrl = "http://localhost:4200";
     private String expectedDashboardURL = baseUrl + "/dashboard";
-    
-    
-    
+
     @BeforeClass
-    public void testLogin() throws InterruptedException {
-        WebElement userID = driver.findElement(By.id("userid"));
-        userID.sendKeys("999");
-        WebElement password = driver.findElement(By.id("userpassword"));
-        password.sendKeys("Allen@123");
-        WebElement loginButton = driver.findElement(By.className("btn"));
-        loginButton.click();
-        Thread.sleep(2000);
-        Assert.assertEquals(driver.getCurrentUrl(), "http://localhost:4200/dashboard", "Login failed");
+    public void testLogin() {
+        driver = new ChromeDriver();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        driver.get(baseUrl);
+        driver.manage().window().maximize();
+
+        waitAndSendKeys(By.id("userid"), "999");
+        waitAndSendKeys(By.id("userpassword"), "Allen@123");
+        waitAndClick(By.className("btn"));
+        boolean urlChanged = wait.until(ExpectedConditions.urlToBe(expectedDashboardURL));
+        Assert.assertEquals(driver.getCurrentUrl(), expectedDashboardURL, "Login failed");
     }
 
     @Test(priority = 1)
-    public void testAddRole() throws InterruptedException {
-        driver.findElement(By.className("hamburger-btn")).click();
-        Thread.sleep(1000);
-        driver.findElement(By.xpath("//summary[text()='Roles']")).click();
-        Thread.sleep(1000);
-        driver.findElement(By.linkText("Edit Roles")).click();
-        Thread.sleep(1000);
-        driver.findElement(By.xpath("//button[text()='Add Role']")).click();
-        Thread.sleep(1000);
-        driver.findElement(By.xpath("//input[@placeholder='Role Name']")).sendKeys("Student");
-        Thread.sleep(1000);
-        driver.findElement(By.className("btn-dark")).click();
+    public void testAddRole() {
+        waitAndClick(By.className("hamburger-btn"));
+        waitAndClick(By.xpath("//summary[text()='Roles']"));
+        waitAndClick(By.linkText("Edit Roles"));
+        waitAndClick(By.xpath("//button[text()='Add Role']"));
+        waitAndSendKeys(By.xpath("//input[@placeholder='Role Name']"), "Student");
+        waitAndClick(By.className("btn-dark"));
     }
 
     @Test(priority = 2)
-    public void testEditRole() throws InterruptedException {
-        List<WebElement> editButtons = driver.findElements(By.className("btn-warning"));
+    public void testEditRole() {
+        List<WebElement> editButtons = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.className("btn-warning")));
         editButtons.get(3).click();
-        Thread.sleep(1000);
-        driver.findElement(By.xpath("//input[@formcontrolname='roleName']")).sendKeys("head master");
-        Thread.sleep(1000);
-        driver.findElement(By.className("btn-success")).click();
-        Thread.sleep(1000);
+        waitAndSendKeys(By.xpath("//input[@formcontrolname='roleName']"), "head master");
+        waitAndClick(By.className("btn-success"));
         handleAlert("Update");
     }
 
     @Test(priority = 3)
-    public void testDeleteRole() throws InterruptedException {
-        List<WebElement> deleteButtons = driver.findElements(By.className("btn-danger"));
+    public void testDeleteRole() {
+        List<WebElement> deleteButtons = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.className("btn-danger")));
         deleteButtons.get(3).click();
-        Thread.sleep(1000);
         handleAlert("Delete");
     }
 
@@ -85,4 +74,13 @@ public class RolesTest {
         }
     }
 
+    private void waitAndClick(By locator) {
+        wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+    }
+
+    private void waitAndSendKeys(By locator, String text) {
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        element.clear();
+        element.sendKeys(text);
+    }
 }
