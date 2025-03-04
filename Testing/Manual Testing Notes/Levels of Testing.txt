@@ -1,0 +1,85 @@
+LEVELS OF TESTING:
+-----------------------------
+1)Unit testing
+2)Integration testing
+3)System Testing
+4)User Acceptance Testing(UAT)
+
+1)UNIT TESTING(DEVELOPERS):
+-------------------------------------------
+ ->A unit is single component or module of a software.
+ ->Unit testing conducts of a single program or single module.
+ ->Unit testing is a white box testing technique.
+ ->Unit testing is conducted by developers.
+
+ eg:-Gmail application.
+ Login->1 component
+ compose email->1 component
+ after composing, an email comes to send Box->1 component
+ after deleting email, comes under deleted emails-> 1 component
+
+UNIT TESTING TECHNIQUES:
+-------------------------------------
+1.Basic path testing.
+2.control structure testing.
+3.conditional coverage.
+4.Loops Coverage.
+5.Mutation Testing.
+
+2)INTEGRATION TESTING:(developers at code level) 
+-----------------------------------------------------------------------
+ ->Integration testing is performed between 2 or more modules.
+ ->Integration between the programs will be tested by developers in code level.
+ ->Integration testing focuses on checking data communication between multiple modules.
+ ->Integration testing is white box testing technique.
+
+   eg:-FOR DEVELEOPERS: ->LOGIN PAGE CODE -------->MAIL BOX CODE -------------->DELETING EMAILS CODE.
+  
+ -> same goes to tester, but in UI part:
+   eg:-FOR TESTERS: ->LOGIN PAGE UI -------->MAIL BOX UI -------------->DELETING EMAILS UI.
+ ->In tester point of view, integration also conducted in application level.
+
+ APPROACHES:
+--------------------------------------------------- 
+1) Top-down approach
+2) Bottom-up approach
+3) Sandwich/hybrid approach 
+
+3)SYSTEM TESTING:
+----------------------------
+->Testing overall functionality of the application with respective client requirements.
+->Black box testing technique.
+->conducted by testing team.
+->After completion of component and integration level testing, we start system testing.
+->Before conducting the system testing we should know the customer requirements.
+
+-> System testing focuses on below aspects:
+    1)user interface testing(GUI)(eg., look & feel, logo, textbox,icons  etc...)
+    2) Functional testing(login, money transfer functionality)
+    3) Non-functional testing(eg: performance, secured, compatibility)
+    4)Usability testing(how friendly your application is?)
+
+4)USER ACCEPTANCE TESTING(UAT):
+--------------------------------------------------
+After completion of system testing UAT team conducts acceptance testing in two levels.
+1.Alpha testing: 
+	customers will do the testing in development or testing environment means they will come to company wherever s/w is developed
+2.Beta testing:
+        After that, customer will get software and do some basic testing in their environment .
+
+After completion of these two testing, our product will go for production, then actual customer will start using the software.
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
