@@ -17,6 +17,7 @@ public class PermissionsTest {
     private String expectedDashboardURL = baseUrl + "/dashboard";
 
     @BeforeClass
+<<<<<<< HEAD
     public void testLogin() {
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -27,6 +28,18 @@ public class PermissionsTest {
         waitAndSendKeys(By.id("userpassword"), "Allen@123");
         waitAndClick(By.className("btn"));
         
+=======
+    public void testlogin() throws InterruptedException {
+        WebElement userID = driver.findElement(By.id("userid"));
+        userID.sendKeys("999");
+        Thread.sleep(2000);
+        WebElement password = driver.findElement(By.id("userpassword"));
+        password.sendKeys("Allen@123");
+        Thread.sleep(2000);
+        WebElement loginButton = driver.findElement(By.className("btn"));
+        loginButton.click();
+        Thread.sleep(2000);
+>>>>>>> 8b43212b01c215080aaa925355c4ca88a3a7df40
         Assert.assertEquals(driver.getCurrentUrl(), expectedDashboardURL, "Login failed");
     }
 

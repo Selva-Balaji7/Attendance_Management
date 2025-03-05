@@ -1,8 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\FinalProj\\Attendance_Management\\",
+<<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|e:\\finalproj\\attendance_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,29 +19,107 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|e:\\finalproj\\attendance_management\\controllers\\leaverequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\leaverequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|e:\\finalproj\\attendance_management\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\controllers\\usersregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\usersregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\controllers\\edituserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\edituserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\controllers\\userregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\userregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 8b43212b01c215080aaa925355c4ca88a3a7df40
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|e:\\finalproj\\attendance_management\\controllers\\attendancerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\controllers\\attendancerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\attendancerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|e:\\finalproj\\attendance_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|e:\\finalproj\\attendance_management\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|e:\\finalproj\\attendance_management\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|e:\\finalproj\\attendance_management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\users\\selva.balaji\\desktop\\finalproj\\attendance_management\\attendance_management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+  "WorkspaceRootPath": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\project(selva)\\attendance_management\\attendance_management\\controllers\\leaverequestshistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\leaverequestshistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\project(selva)\\attendance_management\\attendance_management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\project(selva)\\attendance_management\\attendance_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\project(selva)\\attendance_management\\attendance_management\\controllers\\leaverequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\leaverequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\project(selva)\\attendance_management\\attendance_management\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\project(selva)\\attendance_management\\attendance_management\\controllers\\attendancerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:controllers\\attendancerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\project(selva)\\attendance_management\\attendance_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\project(selva)\\attendance_management\\attendance_management\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\project(selva)\\attendance_management\\attendance_management\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|c:\\project(selva)\\attendance_management\\attendance_management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
       "RelativeMoniker": "D:0:0:{B6F31281-878E-4636-8C96-DCB8C331D27B}|Attendance_management.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,27 +130,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 7,
+=======
+<<<<<<< HEAD
+          "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
+>>>>>>> 8b43212b01c215080aaa925355c4ca88a3a7df40
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LeaverequestshistoryController.cs",
-              "DocumentMoniker": "E:\\FinalProj\\Attendance_Management\\Controllers\\LeaverequestshistoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LeaverequestshistoryController.cs",
-              "ToolTip": "E:\\FinalProj\\Attendance_Management\\Controllers\\LeaverequestshistoryController.cs",
-              "RelativeToolTip": "Controllers\\LeaverequestshistoryController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T14:06:34.93Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 1,
+=======
+<<<<<<< HEAD
+              "DocumentIndex": 1,
+              "Title": "UsersregistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\UsersregistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersregistrationController.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\UsersregistrationController.cs",
+              "RelativeToolTip": "Controllers\\UsersregistrationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T05:56:39.438Z",
+=======
+              "DocumentIndex": 0,
+>>>>>>> 8b43212b01c215080aaa925355c4ca88a3a7df40
+              "Title": "LeaverequestshistoryController.cs",
+              "DocumentMoniker": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Controllers\\LeaverequestshistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LeaverequestshistoryController.cs",
+              "ToolTip": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Controllers\\LeaverequestshistoryController.cs",
+              "RelativeToolTip": "Controllers\\LeaverequestshistoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2025-02-24T14:06:34.93Z"
+=======
+              "WhenOpened": "2025-02-24T14:06:34.93Z",
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
+              "EditorCaption": ""
+>>>>>>> 8b43212b01c215080aaa925355c4ca88a3a7df40
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 2,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Controllers\\ImageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+=======
               "DocumentIndex": 3,
               "Title": "LeaverequestController.cs",
-              "DocumentMoniker": "E:\\FinalProj\\Attendance_Management\\Controllers\\LeaverequestController.cs",
+              "DocumentMoniker": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Controllers\\LeaverequestController.cs",
               "RelativeDocumentMoniker": "Controllers\\LeaverequestController.cs",
-              "ToolTip": "E:\\FinalProj\\Attendance_Management\\Controllers\\LeaverequestController.cs",
+              "ToolTip": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Controllers\\LeaverequestController.cs",
               "RelativeToolTip": "Controllers\\LeaverequestController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -80,9 +202,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "E:\\FinalProj\\Attendance_Management\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "E:\\FinalProj\\Attendance_Management\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Controllers\\LoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,21 +214,131 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\FinalProj\\Attendance_Management\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "E:\\FinalProj\\Attendance_Management\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAAJAAAAAAAAAA==",
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T15:17:12.394Z"
+              "WhenOpened": "2025-02-25T05:55:55.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T05:55:55.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\EditUsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EditUsersController.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\EditUsersController.cs",
+              "RelativeToolTip": "Controllers\\EditUsersController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T05:55:36.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T15:17:12.394Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "UserRegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\UserRegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserRegistrationController.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\UserRegistrationController.cs",
+              "RelativeToolTip": "Controllers\\UserRegistrationController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:56:13.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:55:54.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:55:26.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T15:22:34.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T02:06:08.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\FinalProj\\Attendance_Management\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\FinalProj\\Attendance_Management\\appsettings.json",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\appsettings.json",
+=======
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\appsettings.json",
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -114,11 +346,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\appsettings.Development.json",
+=======
               "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\FinalProj\\Attendance_Management\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "E:\\FinalProj\\Attendance_Management\\appsettings.Development.json",
+              "ToolTip": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\appsettings.Development.json",
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -126,11 +366,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Properties\\launchSettings.json",
+=======
               "DocumentIndex": 8,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\FinalProj\\Attendance_Management\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "E:\\FinalProj\\Attendance_Management\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Properties\\launchSettings.json",
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -138,11 +386,22 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
+=======
+<<<<<<< HEAD
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Data\\ApplicationDbContext.cs",
+=======
+              "DocumentIndex": 2,
+>>>>>>> 8b43212b01c215080aaa925355c4ca88a3a7df40
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\FinalProj\\Attendance_Management\\Program.cs",
+              "DocumentMoniker": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\FinalProj\\Attendance_Management\\Program.cs",
+              "ToolTip": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -153,9 +412,10 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\FinalProj\\Attendance_Management\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\FinalProj\\Attendance_Management\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Data\\ApplicationDbContext.cs",
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -163,11 +423,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 10,
+              "Title": "AttendancerequestController.cs",
+              "DocumentMoniker": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\AttendancerequestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendancerequestController.cs",
+              "ToolTip": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Controllers\\AttendancerequestController.cs",
+=======
               "DocumentIndex": 5,
               "Title": "AttendancerequestController.cs",
-              "DocumentMoniker": "E:\\FinalProj\\Attendance_Management\\Controllers\\AttendancerequestController.cs",
+              "DocumentMoniker": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Controllers\\AttendancerequestController.cs",
               "RelativeDocumentMoniker": "Controllers\\AttendancerequestController.cs",
-              "ToolTip": "E:\\FinalProj\\Attendance_Management\\Controllers\\AttendancerequestController.cs",
+              "ToolTip": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Controllers\\AttendancerequestController.cs",
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
               "RelativeToolTip": "Controllers\\AttendancerequestController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

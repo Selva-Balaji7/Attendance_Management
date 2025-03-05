@@ -1,0 +1,107 @@
+Module 1: Testing concepts(Theory) What?
+Module 2: Testing Project(Practical) How?
+Module 3: Agile process-(jira)
+Module 4: 
+
+
+SDLC: software development life cycle is a process used by software industry to design, develop and test softwares.
+
+different phases:
+ 
+1.requirement
+2.design
+3.development
+4.Testing
+5.Maintenance
+
+
+call software test engineer as: tester/QA/QC
+
+Static testing:
+----------------
+Testing the project related documents is called as static testing.
+
+techniques using:
+
+1)Review: 
+    ->conducts on documents to ensure correctness and completness.
+    1)requirement reviews
+    2)Design reviews
+    3)code reviews
+    4)test plan reviews
+    5) test cases reviews etc.
+
+2)walkthrough:
+    ->It is an informal review.
+    ->Author reads documents or code and discuss with peers.
+    ->Its not pre-planned and can be done whenever required.
+    ->Also walkthrough does not have minutes of the meet.
+
+3)inspection:
+    ->Its a most formal review type.
+    ->In which at least 3-8 people will sit in the meeting 1-reader 2-writer 3-moderator plus concerned.
+    ->Inspection will have a proper schedule which will be intimated via email to the concerned developer/tester. 
+
+
+
+White Box testing: (done by developers) needs coding knowledge
+
+1.Unit testing:testing single module or component of software called unit testing.
+
+2.Integration testing: After completing all modules, the conduct integration testing.
+
+black box testing: (done by testers) No need of coding knowledge
+
+1.System testing:testing application whether it meets customer requirment
+
+2.User acceptance testing:testing at end-user level.
+
+
+Dynamic testing:
+-----------------
+Testing actual software.
+
+techniques using:
+1) Unit testing
+2) Integration testing
+3) System testing
+4) UAT
+
+
+verification:
+ checks whether we are building right product
+ focus on documentation
+ It involves: reviews,walkthroughs,inspections.
+ verification is done before software ready.
+
+validations:
+ check whether we are building right product right
+ Takes place after verifications completed.
+ Focus on software
+ It involves:  actual testig, unit testing,integration, system testing, UAT testing.
+ validation is done after project is ready.
+
+
+
+QA/QC/QE
+->quality assurance
+->quality control
+->quality engineer
+
+QA vs QC
+------------
+-> QA is process related			-> QC is actual testing of the software
+-> QA focuses on building in quality		-> QC foucses on testing in quality
+-> QA is preventing defects                     -> QC is detecting defects(testing activity)
+-> QA is process oriented.                      -> QC is product oriented
+-> QA for entire life cycle                     -> QC for testing part in SDLC.
+
+pillars of company:
+   P-people----QC(Testers)
+   P-process----QA
+   P-product
+
+SE(software engineer): who is writing code for software development 
+QE(Quality engineer/automation tester): who is writing code for testing the software 
+
+

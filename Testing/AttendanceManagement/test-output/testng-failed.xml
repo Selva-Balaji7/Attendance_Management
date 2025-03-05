@@ -6,6 +6,7 @@
   </listeners>
   <test thread-count="6" parallel="classes" name="Test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.AttendanceManagementTest.main.UserTest">
         <methods>
           <include name="testApplyForLeave"/>
@@ -40,6 +41,8 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.AttendanceManagementTest.main.LeaveTest -->
+=======
+>>>>>>> 8b43212b01c215080aaa925355c4ca88a3a7df40
       <class name="com.AttendanceManagementTest.main.UsersTest">
         <methods>
           <include name="testApproveRejectUsers"/>
@@ -57,6 +60,40 @@
           <include name="testEditRole"/>
         </methods>
       </class> <!-- com.AttendanceManagementTest.main.RolesTest -->
+      <class name="com.AttendanceManagementTest.main.PermissionsTest">
+        <methods>
+          <include name="navigateToEditPermissions"/>
+          <include name="modifyPermissions"/>
+          <include name="tearDown"/>
+          <include name="navigateToViewPermissions"/>
+          <include name="testlogin"/>
+        </methods>
+      </class> <!-- com.AttendanceManagementTest.main.PermissionsTest -->
+      <class name="com.AttendanceManagementTest.main.LeaveTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="testLeaveRequest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.AttendanceManagementTest.main.LeaveTest -->
+      <class name="com.AttendanceManagementTest.main.AttendanceTest">
+        <methods>
+          <include name="testMarkAttendance"/>
+          <include name="testViewAttendanceHistory"/>
+          <include name="setUp"/>
+          <include name="testViewAllAttendances"/>
+          <include name="testAdminLogin"/>
+          <include name="testViewStudentAttendances"/>
+          <include name="tearDown"/>
+          <include name="testViewTeacherAttendances"/>
+        </methods>
+      </class> <!-- com.AttendanceManagementTest.main.AttendanceTest -->
+      <class name="com.AttendanceManagementTest.main.UserTest">
+        <methods>
+          <include name="testLoginWithInvalidCredentials"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.AttendanceManagementTest.main.UserTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

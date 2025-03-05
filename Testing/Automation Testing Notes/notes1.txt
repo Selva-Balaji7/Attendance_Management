@@ -18,6 +18,16 @@ maven vs gradle:
             Maven                                 gradle
     1.slower due to full builds           Faster due to incremental builds
     2.Less flexible(strict convention)    More flexible(custom tasks,plugins)
+<<<<<<< HEAD:Testing/Selenium Notes/notes1.txt
 	3.parallel execution-No               parallel execution-yes
 	4.Incremental builds-No               Incremental builds-Yes
 	5.Build speed-slower				  Build speed-faster
+	
+Maven Repository:
+    It is all java related libraries centralized repository.
+ website: mvnrepository.com
+=======
+    3.parallel execution-No               parallel execution-yes
+    4.Incremental builds-No               Incremental builds-Yes
+    5.Build speed-slower	            Build speed-faster
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe:Testing/Automation Testing Notes/notes1.txt
