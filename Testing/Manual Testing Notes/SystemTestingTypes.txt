@@ -1,0 +1,45 @@
+As a tester we are more involve in system testing.
+we can say black box tester.
+System testig:
+  ->testing overall functionality of the application with respect to customer requirement.
+  ->After completiton of integration testing, System testing we will do.
+
+In system testing focusing more on:
+->GUI testing
+->Usability testing
+->Functional testing
+->Non-Functional testing
+
+GUI testing:
+  -> testing user interface of an application.
+  -> GUI includes all elements like(menus,checkbox,button,colors,fonts,sizes,icons,images)
+
+Usability testing:
+  ->In this testing, we ensure easiness of an application.
+  ->testing whether the our s/w helping others or not?.
+
+Functional testing:
+  ->Functionality is behaviour of application.
+  ->Functional testing about how your feature should work.
+
+   ->Object(all web elements) properties Testing:
+        eg: 1.testing box can enable or not,disable or not
+            2.when i select male radio button,female should be disable.
+            when i select female radio button,male should be diable.
+   ->Database Testing/Backend testing:
+        ->Mainly focusing on DML(Data Manupulation testing) operations.
+          (delete,insert,create,update)
+	->GRAY BOX TESTING: combinatin of black box and white box testing.
+        Reason: performing testing at UI part-->black box.
+                writing queries and checking in the DB--> white box.
+      what we actually do in db testing?
+       ->Table level validations(Column type, column length, no of columns...)
+       ->Relation between the tables (Normalization)
+       ->Functions
+       ->stored Pr0000001ocedures
+       ->Triggers
+       ->Indexes
+       ->views
+         etc.
+        
+   ->Error Handling
