@@ -2733,19 +2733,37 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\selva.balaji\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\natheeshkumar.b\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Attendance_management.csproj",
       "projectName": "Attendance_management",
       "projectPath": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\Attendance_management.csproj",
       "packagesPath": "C:\\Users\\selva.balaji\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\selva.balaji\\Desktop\\FinalProj\\Attendance_Management\\Attendance_management\\obj\\",
+=======
+      "projectUniqueName": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Attendance_management.csproj",
+      "projectName": "Attendance_management",
+      "projectPath": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\Attendance_management.csproj",
+      "packagesPath": "C:\\Users\\natheeshkumar.b\\.nuget\\packages\\",
+      "outputPath": "C:\\Project(SELVA)\\Attendance_Management\\Attendance_management\\obj\\",
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\selva.balaji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\natheeshkumar.b\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> e35801fb2b71fd0cd1f3f4f833e0a2284438d8fe
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

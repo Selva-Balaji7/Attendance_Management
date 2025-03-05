@@ -1,10 +1,9 @@
  package com.AttendanceManagementTest.main;
 
 import org.openqa.selenium.WebDriver;
-
-
-
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -23,13 +22,13 @@ import org.testng.ITestContext;
 
 // import net.bytebuddy.dynamic.loading.ClassInjector.UsingReflection.System;
 
- public class AttendanceTest{
+ public class AttendanceTest {
 
      private WebDriver driver =new ChromeDriver();
      private String baseUrl = "http://localhost:4200";
      private String expectedDashboardURL = baseUrl + "/dashboard";
 
-     @BeforeTest
+     @BeforeClass  
      public void setUp(ITestContext context) throws InterruptedException {
          // Set up the ChromeDriver
          System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");       
@@ -44,13 +43,11 @@ import org.testng.ITestContext;
          // Login as Admin
          WebElement userID = driver.findElement(By.id("userid"));
          userID.sendKeys("999");
-
+         Thread.sleep(2000);
          WebElement password = driver.findElement(By.id("userpassword"));
          password.sendKeys("Allen@123");
-         
          WebElement loginButton = driver.findElement(By.className("btn-primary"));
          loginButton.click();
-
          Thread.sleep(2000); // Wait for redirection
          String currentURL = driver.getCurrentUrl();
          Assert.assertEquals(currentURL, expectedDashboardURL, "Admin Login Failed or Incorrect Redirection");
@@ -253,7 +250,7 @@ import org.testng.ITestContext;
      }
 
 
-     @AfterSuite
+     @AfterClass
      public void tearDown() {
          if (driver != null) {
              driver.quit();

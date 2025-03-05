@@ -1,0 +1,19 @@
+Selenium:
+  Introdcution:
+    1.Opensource Test Automation tool.
+	2.Key components of selenium : (selenium webdriver,selenium IDE, selenium GRID)
+	3.supporting browsers: chrome,firefox,IE,Edge,safari,opera
+	4.supporting OS: windows,mac,linux
+	5.supporting programming languages: Java,python,C#,Javascript,ruby
+	
+Selenium Architecture:
+																SE
+ selenium client library  <----> JSON wireprotocol <-----> Browser Drivers  <----->  Real Browsers
+ (java,python,ruby,c#,Js)		 over HTTP        	  (chrome,firefox,IE,Opera)     (chrome,firefox,IE,Opera)
+ 
+ step1: Once run the script using (ex:java), it get communicatesto Browser drivers through JSON wireprotocol.
+ step2: that drivers sends the action defined in the scripts to the real browsers.
+ step3: If action is successfull, it respond back to the Browser driver and to Script editor or IDE i.e(eclipse for java) through
+   JSON wireprotocol over HTTP.
+ 
+ 

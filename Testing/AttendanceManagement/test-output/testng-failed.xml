@@ -1,39 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="6" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.AttendanceManagementTest.main.Extent"/>
+  </listeners>
+  <test thread-count="6" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="com.AttendanceManagementTest.main.Extent">
+      <class name="com.AttendanceManagementTest.main.UsersTest">
         <methods>
-          <include name="testMarkAttendance"/>
-          <include name="testAddRole"/>
-          <include name="navigateToEditPermissions"/>
-          <include name="testDeleteRole"/>
-          <include name="modifyPermissions"/>
-          <include name="setUp"/>
-          <include name="login"/>
-          <include name="setUp"/>
-          <include name="testViewStudentAttendances"/>
-          <include name="testViewAttendanceHistory"/>
-          <include name="testApplyForLeave"/>
-          <include name="testForgotPassword"/>
-          <include name="testLeaveRequest"/>
-          <include name="teardown"/>
-          <include name="testViewAllAttendances"/>
           <include name="testApproveRejectUsers"/>
           <include name="testViewUsers"/>
-          <include name="testAdminLogin"/>
-          <include name="testEditRole"/>
-          <include name="navigateToViewPermissions"/>
+          <include name="tearDown"/>
           <include name="testLogin"/>
-          <include name="testLoginAsStudent"/>
-          <include name="setup"/>
-          <include name="testLoginWithInvalidCredentials"/>
+        </methods>
+      </class> <!-- com.AttendanceManagementTest.main.UsersTest -->
+      <class name="com.AttendanceManagementTest.main.RolesTest">
+        <methods>
+          <include name="testAddRole"/>
+          <include name="testDeleteRole"/>
+          <include name="tearDown"/>
+          <include name="testLogin"/>
+          <include name="testEditRole"/>
+        </methods>
+      </class> <!-- com.AttendanceManagementTest.main.RolesTest -->
+      <class name="com.AttendanceManagementTest.main.PermissionsTest">
+        <methods>
+          <include name="navigateToEditPermissions"/>
+          <include name="modifyPermissions"/>
+          <include name="tearDown"/>
+          <include name="navigateToViewPermissions"/>
+          <include name="testlogin"/>
+        </methods>
+      </class> <!-- com.AttendanceManagementTest.main.PermissionsTest -->
+      <class name="com.AttendanceManagementTest.main.LeaveTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="testLeaveRequest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.AttendanceManagementTest.main.LeaveTest -->
+      <class name="com.AttendanceManagementTest.main.AttendanceTest">
+        <methods>
+          <include name="testMarkAttendance"/>
+          <include name="testViewAttendanceHistory"/>
+          <include name="setUp"/>
+          <include name="testViewAllAttendances"/>
+          <include name="testAdminLogin"/>
+          <include name="testViewStudentAttendances"/>
           <include name="tearDown"/>
           <include name="testViewTeacherAttendances"/>
-          <include name="testNewUserRegistration"/>
         </methods>
-      </class> <!-- com.AttendanceManagementTest.main.Extent -->
+      </class> <!-- com.AttendanceManagementTest.main.AttendanceTest -->
+      <class name="com.AttendanceManagementTest.main.UserTest">
+        <methods>
+          <include name="testLoginWithInvalidCredentials"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.AttendanceManagementTest.main.UserTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

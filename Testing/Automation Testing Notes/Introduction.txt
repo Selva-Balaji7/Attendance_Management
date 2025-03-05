@@ -1,0 +1,64 @@
+Introduction to Automation:
+    what is automation?
+	    -> Process of converting Manual test cases into automation with script using automation
+ tool with programmin or scripting(js) language.
+ 
+ D/b pragramming & scripting:
+  Program:    									scripting
+     ->used to build full            ->used to automate tasks or enhance         
+       fledged apps(eg.java			   existing applications (eg., js
+	   for android apps)			   for web pages.
+	   
+Advantages of automation:
+  -> avoid repetitive tasks 
+  ->reusability of code
+  ->Accuracty in results
+  ->Improved quality of software
+  
+ when we will go for automation:
+   ->Long term project.
+   ->when more regression cycles are available.
+   ->when more repetitive task need to do
+   ->when manual test case document is ready.
+  
+ what is not automatable?
+   1.Audio & video related Test cases.
+   2.OTP, 3.captcha, 4.Iam not a robot, 5.fingerprints, 6.printer, 7.Barcode,
+   8.Face recognition, 9.Embedded Related Test Cases.(hardware+software)
+   
+Types of automation Tools:
+  1.Functional   2.Non-Function automation tools
+       
+1.Functional automation tool:
+       ->These tools tests the functionality fo an application to ensure it behaves as expected
+	   ->purpose: automate UI,API, business logic validation.
+	   ->focus:verifies software meets requirements
+	   
+	   example scenarios:
+	   -> clicking buttons,filling forms,verifying output
+	   -> login functionality,payment processing etc.,
+	   
+	   Tools:
+	   1.Selenium: automates web applications(browser-based testing)
+	   2.TestNG: Java testing framework for functional testing.
+	   3.Cypress: modern javascript based web testing tool.
+	   4.Appium: Mobile app automation(ios & android).
+	   5.Postman: API functional testing.
+	   6.Katalon studio: All in one testing tool for(web,API,mobile).
+	   
+2.Non-Functional automation tool:
+   To automate non-functional like performance,speed, scalability related testcases, we go for non-functional automation tool.
+   
+   Tools:
+    1.Jmeter: opensource tool for load and performance testing
+	2.Load runner:Enterprise tool for perfomance and stress testing
+	3.Gatling:Developer-friendly performance testing tool.
+	4.k6: Modern load testing tool for developers.
+		
+
+
+
+
+
+
+

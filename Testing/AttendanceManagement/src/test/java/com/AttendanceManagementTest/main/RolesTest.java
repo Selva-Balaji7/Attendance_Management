@@ -1,6 +1,7 @@
 package com.AttendanceManagementTest.main;
 
 import org.openqa.selenium.Alert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,17 +14,14 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class RolesTest extends PermissionsTest{
-    private WebDriver driver;
-
+public class RolesTest {
+	private WebDriver driver =new ChromeDriver();
+    private String baseUrl = "http://localhost:4200";
+    private String expectedDashboardURL = baseUrl + "/dashboard";
+    
+    
+    
     @BeforeClass
-    public void setUp() {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("http://localhost:4200");
-    }
-
-    @Test(priority = 1)
     public void testLogin() throws InterruptedException {
         WebElement userID = driver.findElement(By.id("userid"));
         userID.sendKeys("999");
@@ -35,7 +33,7 @@ public class RolesTest extends PermissionsTest{
         Assert.assertEquals(driver.getCurrentUrl(), "http://localhost:4200/dashboard", "Login failed");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 1)
     public void testAddRole() throws InterruptedException {
         driver.findElement(By.className("hamburger-btn")).click();
         Thread.sleep(1000);
@@ -50,7 +48,7 @@ public class RolesTest extends PermissionsTest{
         driver.findElement(By.className("btn-dark")).click();
     }
 
-    @Test(priority = 3)
+    @Test(priority = 2)
     public void testEditRole() throws InterruptedException {
         List<WebElement> editButtons = driver.findElements(By.className("btn-warning"));
         editButtons.get(3).click();
@@ -62,7 +60,7 @@ public class RolesTest extends PermissionsTest{
         handleAlert("Update");
     }
 
-    @Test(priority = 4)
+    @Test(priority = 3)
     public void testDeleteRole() throws InterruptedException {
         List<WebElement> deleteButtons = driver.findElements(By.className("btn-danger"));
         deleteButtons.get(3).click();
@@ -79,11 +77,12 @@ public class RolesTest extends PermissionsTest{
             e.printStackTrace();
         }
     }
-
+    
     @AfterClass
     public void tearDown() {
         if (driver != null) {
             driver.quit();
         }
     }
+
 }

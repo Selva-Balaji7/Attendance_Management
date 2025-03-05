@@ -3,37 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.AttendanceManagementTest.main.Extent">
+      <class name="com.AttendanceManagementTest.main.RolesTest">
         <methods>
-          <include name="testMarkAttendance"/>
-          <include name="testAddRole"/>
-          <include name="navigateToEditPermissions"/>
-          <include name="testDeleteRole"/>
-          <include name="modifyPermissions"/>
-          <include name="setUp"/>
-          <include name="login"/>
-          <include name="setUp"/>
-          <include name="testViewStudentAttendances"/>
-          <include name="testViewAttendanceHistory"/>
-          <include name="testApplyForLeave"/>
-          <include name="testForgotPassword"/>
-          <include name="testLeaveRequest"/>
-          <include name="teardown"/>
-          <include name="testViewAllAttendances"/>
-          <include name="testApproveRejectUsers"/>
-          <include name="testViewUsers"/>
-          <include name="testAdminLogin"/>
-          <include name="testEditRole"/>
-          <include name="navigateToViewPermissions"/>
           <include name="testLogin"/>
-          <include name="testLoginAsStudent"/>
-          <include name="setup"/>
-          <include name="testLoginWithInvalidCredentials"/>
-          <include name="tearDown"/>
-          <include name="testViewTeacherAttendances"/>
-          <include name="testNewUserRegistration"/>
         </methods>
-      </class> <!-- com.AttendanceManagementTest.main.Extent -->
+      </class> <!-- com.AttendanceManagementTest.main.RolesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
