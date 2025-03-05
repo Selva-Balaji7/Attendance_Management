@@ -21,3 +21,7 @@ maven vs gradle:
 	3.parallel execution-No               parallel execution-yes
 	4.Incremental builds-No               Incremental builds-Yes
 	5.Build speed-slower				  Build speed-faster
+	
+Maven Repository:
+    It is all java related libraries centralized repository.
+ website: mvnrepository.com
