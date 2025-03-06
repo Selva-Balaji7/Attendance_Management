@@ -1,6 +1,0 @@
-SYSTEM TESTING AND ITS TYPES:
-  ->    testing overall  functionality of the application with respect to customer requirement.
- 
-
-
-
